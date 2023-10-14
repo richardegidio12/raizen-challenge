@@ -1,0 +1,291 @@
+[2023-10-12 23:34:43,367] {processor.py:153} INFO - Started process (PID=3098) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:34:43,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:34:43,371] {logging_mixin.py:115} INFO - [2023-10-12 23:34:43,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:34:44,343] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:34:44,402] {logging_mixin.py:115} INFO - [2023-10-12 23:34:44,402] {manager.py:508} INFO - Created Permission View: can read on DAG:etl-raizen
+[2023-10-12 23:34:44,412] {logging_mixin.py:115} INFO - [2023-10-12 23:34:44,412] {manager.py:508} INFO - Created Permission View: can delete on DAG:etl-raizen
+[2023-10-12 23:34:44,418] {logging_mixin.py:115} INFO - [2023-10-12 23:34:44,418] {manager.py:508} INFO - Created Permission View: can edit on DAG:etl-raizen
+[2023-10-12 23:34:44,420] {logging_mixin.py:115} INFO - [2023-10-12 23:34:44,419] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:34:44,426] {logging_mixin.py:115} INFO - [2023-10-12 23:34:44,426] {dag.py:2390} INFO - Creating ORM DAG for etl-raizen
+[2023-10-12 23:34:44,434] {logging_mixin.py:115} INFO - [2023-10-12 23:34:44,434] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:34:44.434699+00:00, run_after=2023-10-12T23:34:44.434699+00:00
+[2023-10-12 23:34:44,446] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 1.084 seconds
+[2023-10-12 23:35:15,357] {processor.py:153} INFO - Started process (PID=3164) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:35:15,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:35:15,361] {logging_mixin.py:115} INFO - [2023-10-12 23:35:15,361] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:35:15,678] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:35:15,698] {logging_mixin.py:115} INFO - [2023-10-12 23:35:15,697] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:35:15,710] {logging_mixin.py:115} INFO - [2023-10-12 23:35:15,710] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:35:15.710691+00:00, run_after=2023-10-12T23:35:15.710691+00:00
+[2023-10-12 23:35:15,718] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.364 seconds
+[2023-10-12 23:35:46,208] {processor.py:153} INFO - Started process (PID=3227) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:35:46,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:35:46,211] {logging_mixin.py:115} INFO - [2023-10-12 23:35:46,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:35:46,505] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:35:48,691] {logging_mixin.py:115} INFO - [2023-10-12 23:35:48,688] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:35:48,745] {logging_mixin.py:115} INFO - [2023-10-12 23:35:48,745] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:35:48.745422+00:00, run_after=2023-10-12T23:35:48.745422+00:00
+[2023-10-12 23:35:48,765] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 2.560 seconds
+[2023-10-12 23:36:19,221] {processor.py:153} INFO - Started process (PID=3290) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:36:19,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:36:19,226] {logging_mixin.py:115} INFO - [2023-10-12 23:36:19,226] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:36:20,009] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:36:20,039] {logging_mixin.py:115} INFO - [2023-10-12 23:36:20,038] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:36:20,065] {logging_mixin.py:115} INFO - [2023-10-12 23:36:20,065] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:36:20.064973+00:00, run_after=2023-10-12T23:36:20.064973+00:00
+[2023-10-12 23:36:20,099] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.881 seconds
+[2023-10-12 23:36:50,822] {processor.py:153} INFO - Started process (PID=3354) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:36:50,824] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:36:50,825] {logging_mixin.py:115} INFO - [2023-10-12 23:36:50,825] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:36:51,162] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:36:51,181] {logging_mixin.py:115} INFO - [2023-10-12 23:36:51,181] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:36:51,196] {logging_mixin.py:115} INFO - [2023-10-12 23:36:51,196] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:36:51.196360+00:00, run_after=2023-10-12T23:36:51.196360+00:00
+[2023-10-12 23:36:51,219] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.400 seconds
+[2023-10-12 23:37:21,377] {processor.py:153} INFO - Started process (PID=3408) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:37:21,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:37:21,380] {logging_mixin.py:115} INFO - [2023-10-12 23:37:21,380] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:37:21,766] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:37:21,785] {logging_mixin.py:115} INFO - [2023-10-12 23:37:21,784] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:37:21,799] {logging_mixin.py:115} INFO - [2023-10-12 23:37:21,799] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:37:21.799559+00:00, run_after=2023-10-12T23:37:21.799559+00:00
+[2023-10-12 23:37:21,809] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.436 seconds
+[2023-10-12 23:37:52,279] {processor.py:153} INFO - Started process (PID=3471) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:37:52,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:37:52,283] {logging_mixin.py:115} INFO - [2023-10-12 23:37:52,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:37:52,631] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:37:52,651] {logging_mixin.py:115} INFO - [2023-10-12 23:37:52,650] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:37:52,665] {logging_mixin.py:115} INFO - [2023-10-12 23:37:52,665] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:37:52.665267+00:00, run_after=2023-10-12T23:37:52.665267+00:00
+[2023-10-12 23:37:52,674] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.398 seconds
+[2023-10-12 23:38:22,780] {processor.py:153} INFO - Started process (PID=3527) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:38:22,783] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:38:22,784] {logging_mixin.py:115} INFO - [2023-10-12 23:38:22,784] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:38:23,124] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:38:23,143] {logging_mixin.py:115} INFO - [2023-10-12 23:38:23,143] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:38:23,156] {logging_mixin.py:115} INFO - [2023-10-12 23:38:23,156] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:38:23.156642+00:00, run_after=2023-10-12T23:38:23.156642+00:00
+[2023-10-12 23:38:23,163] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.386 seconds
+[2023-10-12 23:38:53,296] {processor.py:153} INFO - Started process (PID=3585) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:38:53,298] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:38:53,300] {logging_mixin.py:115} INFO - [2023-10-12 23:38:53,300] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:38:53,784] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:38:53,801] {logging_mixin.py:115} INFO - [2023-10-12 23:38:53,801] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:38:53,823] {logging_mixin.py:115} INFO - [2023-10-12 23:38:53,823] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:38:53.822667+00:00, run_after=2023-10-12T23:38:53.822667+00:00
+[2023-10-12 23:38:53,833] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.539 seconds
+[2023-10-12 23:39:24,212] {processor.py:153} INFO - Started process (PID=3648) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:39:24,213] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:39:24,214] {logging_mixin.py:115} INFO - [2023-10-12 23:39:24,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:39:24,587] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:39:24,622] {logging_mixin.py:115} INFO - [2023-10-12 23:39:24,622] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:39:24,633] {logging_mixin.py:115} INFO - [2023-10-12 23:39:24,633] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:39:24.633538+00:00, run_after=2023-10-12T23:39:24.633538+00:00
+[2023-10-12 23:39:24,640] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.431 seconds
+[2023-10-12 23:39:54,995] {processor.py:153} INFO - Started process (PID=3702) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:39:54,996] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:39:54,997] {logging_mixin.py:115} INFO - [2023-10-12 23:39:54,997] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:39:55,314] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:39:55,336] {logging_mixin.py:115} INFO - [2023-10-12 23:39:55,336] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:39:55,352] {logging_mixin.py:115} INFO - [2023-10-12 23:39:55,352] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:39:55.352113+00:00, run_after=2023-10-12T23:39:55.352113+00:00
+[2023-10-12 23:39:55,362] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.370 seconds
+[2023-10-12 23:40:25,442] {processor.py:153} INFO - Started process (PID=3764) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:40:25,444] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:40:25,445] {logging_mixin.py:115} INFO - [2023-10-12 23:40:25,445] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:40:25,806] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:40:25,821] {logging_mixin.py:115} INFO - [2023-10-12 23:40:25,821] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:40:25,834] {logging_mixin.py:115} INFO - [2023-10-12 23:40:25,834] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:40:25.834054+00:00, run_after=2023-10-12T23:40:25.834054+00:00
+[2023-10-12 23:40:25,843] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.405 seconds
+[2023-10-12 23:40:55,977] {processor.py:153} INFO - Started process (PID=3828) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:40:55,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:40:55,980] {logging_mixin.py:115} INFO - [2023-10-12 23:40:55,980] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:40:56,453] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:40:56,471] {logging_mixin.py:115} INFO - [2023-10-12 23:40:56,471] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:40:56,492] {logging_mixin.py:115} INFO - [2023-10-12 23:40:56,492] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:40:56.492256+00:00, run_after=2023-10-12T23:40:56.492256+00:00
+[2023-10-12 23:40:56,505] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.531 seconds
+[2023-10-12 23:41:26,997] {processor.py:153} INFO - Started process (PID=3882) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:41:26,999] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:41:27,000] {logging_mixin.py:115} INFO - [2023-10-12 23:41:27,000] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:41:27,251] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:41:27,289] {logging_mixin.py:115} INFO - [2023-10-12 23:41:27,289] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:41:27,308] {logging_mixin.py:115} INFO - [2023-10-12 23:41:27,308] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:41:27.307996+00:00, run_after=2023-10-12T23:41:27.307996+00:00
+[2023-10-12 23:41:27,316] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.321 seconds
+[2023-10-12 23:41:58,000] {processor.py:153} INFO - Started process (PID=3945) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:41:58,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:41:58,004] {logging_mixin.py:115} INFO - [2023-10-12 23:41:58,004] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:41:58,324] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:41:58,338] {logging_mixin.py:115} INFO - [2023-10-12 23:41:58,337] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:41:58,358] {logging_mixin.py:115} INFO - [2023-10-12 23:41:58,358] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:41:58.358416+00:00, run_after=2023-10-12T23:41:58.358416+00:00
+[2023-10-12 23:41:58,367] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.369 seconds
+[2023-10-12 23:42:29,094] {processor.py:153} INFO - Started process (PID=4007) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:42:29,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:42:29,097] {logging_mixin.py:115} INFO - [2023-10-12 23:42:29,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:42:29,455] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:42:29,478] {logging_mixin.py:115} INFO - [2023-10-12 23:42:29,476] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:42:29,498] {logging_mixin.py:115} INFO - [2023-10-12 23:42:29,498] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:42:29.498086+00:00, run_after=2023-10-12T23:42:29.498086+00:00
+[2023-10-12 23:42:29,511] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.422 seconds
+[2023-10-12 23:42:59,618] {processor.py:153} INFO - Started process (PID=4070) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:42:59,619] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:42:59,620] {logging_mixin.py:115} INFO - [2023-10-12 23:42:59,620] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:42:59,934] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:42:59,953] {logging_mixin.py:115} INFO - [2023-10-12 23:42:59,953] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:42:59,965] {logging_mixin.py:115} INFO - [2023-10-12 23:42:59,965] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:42:59.965753+00:00, run_after=2023-10-12T23:42:59.965753+00:00
+[2023-10-12 23:42:59,974] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.358 seconds
+[2023-10-12 23:43:30,019] {processor.py:153} INFO - Started process (PID=4124) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:43:30,021] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:43:30,022] {logging_mixin.py:115} INFO - [2023-10-12 23:43:30,022] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:43:30,355] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:43:30,378] {logging_mixin.py:115} INFO - [2023-10-12 23:43:30,378] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:43:30,389] {logging_mixin.py:115} INFO - [2023-10-12 23:43:30,389] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:43:30.389794+00:00, run_after=2023-10-12T23:43:30.389794+00:00
+[2023-10-12 23:43:30,398] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.383 seconds
+[2023-10-12 23:44:00,498] {processor.py:153} INFO - Started process (PID=4190) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:44:00,500] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:44:00,502] {logging_mixin.py:115} INFO - [2023-10-12 23:44:00,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:44:00,998] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:44:01,019] {logging_mixin.py:115} INFO - [2023-10-12 23:44:01,018] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:44:01,034] {logging_mixin.py:115} INFO - [2023-10-12 23:44:01,034] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:44:01.034062+00:00, run_after=2023-10-12T23:44:01.034062+00:00
+[2023-10-12 23:44:01,043] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.547 seconds
+[2023-10-12 23:44:33,411] {processor.py:153} INFO - Started process (PID=4253) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:44:33,413] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:44:33,414] {logging_mixin.py:115} INFO - [2023-10-12 23:44:33,414] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:44:33,956] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:44:33,989] {logging_mixin.py:115} INFO - [2023-10-12 23:44:33,989] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:44:34,014] {logging_mixin.py:115} INFO - [2023-10-12 23:44:34,014] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:44:34.014018+00:00, run_after=2023-10-12T23:44:34.014018+00:00
+[2023-10-12 23:44:34,024] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.616 seconds
+[2023-10-12 23:45:04,335] {processor.py:153} INFO - Started process (PID=4310) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:45:04,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:45:04,338] {logging_mixin.py:115} INFO - [2023-10-12 23:45:04,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:45:04,599] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:45:04,614] {logging_mixin.py:115} INFO - [2023-10-12 23:45:04,614] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:45:04,628] {logging_mixin.py:115} INFO - [2023-10-12 23:45:04,627] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:45:04.627859+00:00, run_after=2023-10-12T23:45:04.627859+00:00
+[2023-10-12 23:45:04,635] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.303 seconds
+[2023-10-12 23:45:34,954] {processor.py:153} INFO - Started process (PID=4373) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:45:34,955] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:45:34,956] {logging_mixin.py:115} INFO - [2023-10-12 23:45:34,956] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:45:35,217] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:45:35,235] {logging_mixin.py:115} INFO - [2023-10-12 23:45:35,234] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:45:35,248] {logging_mixin.py:115} INFO - [2023-10-12 23:45:35,248] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:45:35.248120+00:00, run_after=2023-10-12T23:45:35.248120+00:00
+[2023-10-12 23:45:35,255] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.304 seconds
+[2023-10-12 23:46:05,442] {processor.py:153} INFO - Started process (PID=4422) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:46:05,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:46:05,449] {logging_mixin.py:115} INFO - [2023-10-12 23:46:05,449] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:46:05,784] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:46:05,806] {logging_mixin.py:115} INFO - [2023-10-12 23:46:05,806] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:46:05,821] {logging_mixin.py:115} INFO - [2023-10-12 23:46:05,821] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:46:05.821455+00:00, run_after=2023-10-12T23:46:05.821455+00:00
+[2023-10-12 23:46:05,831] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.391 seconds
+[2023-10-12 23:46:36,075] {processor.py:153} INFO - Started process (PID=4477) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:46:36,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:46:36,078] {logging_mixin.py:115} INFO - [2023-10-12 23:46:36,078] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:46:36,398] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:46:36,423] {logging_mixin.py:115} INFO - [2023-10-12 23:46:36,422] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:46:36,440] {logging_mixin.py:115} INFO - [2023-10-12 23:46:36,440] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:46:36.440597+00:00, run_after=2023-10-12T23:46:36.440597+00:00
+[2023-10-12 23:46:36,460] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.387 seconds
+[2023-10-12 23:47:06,561] {processor.py:153} INFO - Started process (PID=4541) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:47:06,562] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:47:06,564] {logging_mixin.py:115} INFO - [2023-10-12 23:47:06,564] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:47:06,856] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:47:06,883] {logging_mixin.py:115} INFO - [2023-10-12 23:47:06,883] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:47:06,902] {logging_mixin.py:115} INFO - [2023-10-12 23:47:06,902] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:47:06.902025+00:00, run_after=2023-10-12T23:47:06.902025+00:00
+[2023-10-12 23:47:06,912] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.353 seconds
+[2023-10-12 23:47:37,522] {processor.py:153} INFO - Started process (PID=4597) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:47:37,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:47:37,524] {logging_mixin.py:115} INFO - [2023-10-12 23:47:37,523] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:47:37,839] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:47:37,863] {logging_mixin.py:115} INFO - [2023-10-12 23:47:37,863] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:47:37,885] {logging_mixin.py:115} INFO - [2023-10-12 23:47:37,885] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:47:37.885185+00:00, run_after=2023-10-12T23:47:37.885185+00:00
+[2023-10-12 23:47:37,897] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.378 seconds
+[2023-10-12 23:48:08,141] {processor.py:153} INFO - Started process (PID=4661) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:48:08,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:48:08,144] {logging_mixin.py:115} INFO - [2023-10-12 23:48:08,144] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:48:08,452] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:48:08,476] {logging_mixin.py:115} INFO - [2023-10-12 23:48:08,476] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:48:08,488] {logging_mixin.py:115} INFO - [2023-10-12 23:48:08,488] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:48:08.488449+00:00, run_after=2023-10-12T23:48:08.488449+00:00
+[2023-10-12 23:48:08,496] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.357 seconds
+[2023-10-12 23:48:38,618] {processor.py:153} INFO - Started process (PID=4724) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:48:38,619] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:48:38,620] {logging_mixin.py:115} INFO - [2023-10-12 23:48:38,620] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:48:38,935] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:48:38,951] {logging_mixin.py:115} INFO - [2023-10-12 23:48:38,951] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:48:38,966] {logging_mixin.py:115} INFO - [2023-10-12 23:48:38,965] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:48:38.965845+00:00, run_after=2023-10-12T23:48:38.965845+00:00
+[2023-10-12 23:48:38,976] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.361 seconds
+[2023-10-12 23:49:09,173] {processor.py:153} INFO - Started process (PID=4779) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:49:09,175] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:49:09,177] {logging_mixin.py:115} INFO - [2023-10-12 23:49:09,176] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:49:09,559] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:49:10,404] {logging_mixin.py:115} INFO - [2023-10-12 23:49:10,404] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:49:10,420] {logging_mixin.py:115} INFO - [2023-10-12 23:49:10,419] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:49:10.419827+00:00, run_after=2023-10-12T23:49:10.419827+00:00
+[2023-10-12 23:49:10,428] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 1.259 seconds
+[2023-10-12 23:49:40,795] {processor.py:153} INFO - Started process (PID=4843) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:49:40,797] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:49:40,798] {logging_mixin.py:115} INFO - [2023-10-12 23:49:40,798] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:49:41,091] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:49:41,125] {logging_mixin.py:115} INFO - [2023-10-12 23:49:41,125] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:49:41,138] {logging_mixin.py:115} INFO - [2023-10-12 23:49:41,138] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:49:41.138116+00:00, run_after=2023-10-12T23:49:41.138116+00:00
+[2023-10-12 23:49:41,147] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.355 seconds
+[2023-10-12 23:50:11,550] {processor.py:153} INFO - Started process (PID=4906) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:50:11,552] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:50:11,553] {logging_mixin.py:115} INFO - [2023-10-12 23:50:11,553] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:50:11,903] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:50:11,917] {logging_mixin.py:115} INFO - [2023-10-12 23:50:11,917] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:50:11,929] {logging_mixin.py:115} INFO - [2023-10-12 23:50:11,929] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:50:11.929553+00:00, run_after=2023-10-12T23:50:11.929553+00:00
+[2023-10-12 23:50:11,936] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.390 seconds
+[2023-10-12 23:50:42,488] {processor.py:153} INFO - Started process (PID=4970) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:50:42,489] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:50:42,490] {logging_mixin.py:115} INFO - [2023-10-12 23:50:42,490] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:50:43,108] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:50:43,133] {logging_mixin.py:115} INFO - [2023-10-12 23:50:43,133] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:50:43,148] {logging_mixin.py:115} INFO - [2023-10-12 23:50:43,147] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:50:43.147715+00:00, run_after=2023-10-12T23:50:43.147715+00:00
+[2023-10-12 23:50:43,157] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.672 seconds
+[2023-10-12 23:51:13,234] {processor.py:153} INFO - Started process (PID=5024) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:51:13,236] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:51:13,237] {logging_mixin.py:115} INFO - [2023-10-12 23:51:13,237] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:51:13,636] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:51:13,649] {logging_mixin.py:115} INFO - [2023-10-12 23:51:13,649] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:51:13,664] {logging_mixin.py:115} INFO - [2023-10-12 23:51:13,664] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:51:13.664087+00:00, run_after=2023-10-12T23:51:13.664087+00:00
+[2023-10-12 23:51:13,671] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.439 seconds
+[2023-10-12 23:51:43,880] {processor.py:153} INFO - Started process (PID=5088) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:51:43,896] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:51:43,898] {logging_mixin.py:115} INFO - [2023-10-12 23:51:43,898] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:51:44,241] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:51:44,256] {logging_mixin.py:115} INFO - [2023-10-12 23:51:44,256] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:51:44,270] {logging_mixin.py:115} INFO - [2023-10-12 23:51:44,270] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:51:44.270664+00:00, run_after=2023-10-12T23:51:44.270664+00:00
+[2023-10-12 23:51:44,278] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.402 seconds
+[2023-10-12 23:52:14,444] {processor.py:153} INFO - Started process (PID=5150) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:52:14,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:52:14,447] {logging_mixin.py:115} INFO - [2023-10-12 23:52:14,447] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:52:14,717] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:52:14,736] {logging_mixin.py:115} INFO - [2023-10-12 23:52:14,736] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:52:14,753] {logging_mixin.py:115} INFO - [2023-10-12 23:52:14,753] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:52:14.753497+00:00, run_after=2023-10-12T23:52:14.753497+00:00
+[2023-10-12 23:52:14,760] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.318 seconds
+[2023-10-12 23:52:45,160] {processor.py:153} INFO - Started process (PID=5203) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:52:45,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:52:45,162] {logging_mixin.py:115} INFO - [2023-10-12 23:52:45,162] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:52:45,497] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:52:45,516] {logging_mixin.py:115} INFO - [2023-10-12 23:52:45,515] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:52:45,530] {logging_mixin.py:115} INFO - [2023-10-12 23:52:45,530] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:52:45.530109+00:00, run_after=2023-10-12T23:52:45.530109+00:00
+[2023-10-12 23:52:45,539] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.382 seconds
+[2023-10-12 23:53:15,766] {processor.py:153} INFO - Started process (PID=5267) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:53:15,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:53:15,770] {logging_mixin.py:115} INFO - [2023-10-12 23:53:15,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:53:16,081] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:53:16,098] {logging_mixin.py:115} INFO - [2023-10-12 23:53:16,097] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:53:16,110] {logging_mixin.py:115} INFO - [2023-10-12 23:53:16,110] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:53:16.110224+00:00, run_after=2023-10-12T23:53:16.110224+00:00
+[2023-10-12 23:53:16,120] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.357 seconds
+[2023-10-12 23:53:46,242] {processor.py:153} INFO - Started process (PID=5329) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:53:46,244] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:53:46,245] {logging_mixin.py:115} INFO - [2023-10-12 23:53:46,245] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:53:46,652] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:53:46,669] {logging_mixin.py:115} INFO - [2023-10-12 23:53:46,669] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:53:46,685] {logging_mixin.py:115} INFO - [2023-10-12 23:53:46,685] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:53:46.685444+00:00, run_after=2023-10-12T23:53:46.685444+00:00
+[2023-10-12 23:53:46,695] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.460 seconds
+[2023-10-12 23:54:16,941] {processor.py:153} INFO - Started process (PID=5384) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:54:16,943] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:54:16,944] {logging_mixin.py:115} INFO - [2023-10-12 23:54:16,944] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:54:17,297] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:54:17,315] {logging_mixin.py:115} INFO - [2023-10-12 23:54:17,314] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:54:17,347] {logging_mixin.py:115} INFO - [2023-10-12 23:54:17,346] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:54:17.346880+00:00, run_after=2023-10-12T23:54:17.346880+00:00
+[2023-10-12 23:54:17,357] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 0.418 seconds
+[2023-10-12 23:58:46,507] {processor.py:153} INFO - Started process (PID=5420) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:58:46,515] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:58:46,523] {logging_mixin.py:115} INFO - [2023-10-12 23:58:46,522] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:58:49,633] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:58:49,714] {logging_mixin.py:115} INFO - [2023-10-12 23:58:49,711] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:58:49,786] {logging_mixin.py:115} INFO - [2023-10-12 23:58:49,786] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:58:49.786128+00:00, run_after=2023-10-12T23:58:49.786128+00:00
+[2023-10-12 23:58:49,821] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 3.326 seconds
+[2023-10-12 23:59:20,635] {processor.py:153} INFO - Started process (PID=5474) to work on /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:59:20,642] {processor.py:641} INFO - Processing file /opt/airflow/dags/raizen-extraction/controller.py for tasks to queue
+[2023-10-12 23:59:20,649] {logging_mixin.py:115} INFO - [2023-10-12 23:59:20,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:59:23,200] {processor.py:651} INFO - DAG(s) dict_keys(['etl-raizen']) retrieved from /opt/airflow/dags/raizen-extraction/controller.py
+[2023-10-12 23:59:23,422] {logging_mixin.py:115} INFO - [2023-10-12 23:59:23,421] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-10-12 23:59:23,649] {logging_mixin.py:115} INFO - [2023-10-12 23:59:23,648] {dag.py:2919} INFO - Setting next_dagrun for etl-raizen to 2023-10-11T23:59:23.648334+00:00, run_after=2023-10-12T23:59:23.648334+00:00
+[2023-10-12 23:59:23,709] {processor.py:161} INFO - Processing /opt/airflow/dags/raizen-extraction/controller.py took 3.091 seconds
