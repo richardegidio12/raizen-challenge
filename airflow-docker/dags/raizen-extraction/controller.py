@@ -101,7 +101,7 @@ def count_validation_stage(product:str):
 
 
 
-def fuels_refined_writing(product:str, filename:str):
+def trusted_to_refined(product:str, filename:str):
     df = pd.read_csv(f"/opt/airflow/dags/raizen-extraction/trusted/{product}-{filename}.csv")
     df.to_parquet(f"/opt/airflow/dags/raizen-extraction/refined/{product}-{filename}",compression='snappy', partition_cols=['created_at'])
     logging.info(f"Process Fineshed: File created at path: /opt/airflow/dags/raizen-extraction/refined/{product}-{filename}")
@@ -146,7 +146,7 @@ fuels_count_validation  = PythonOperator(
 
 fuels_trusted_to_refined  = PythonOperator(
         task_id='fuels_trusted_to_refined', 
-        python_callable=fuels_refined_writing,
+        python_callable=trusted_to_refined,
         op_kwargs={'product': 'fuels_derivated',
                    'filename': 'vendas-combustiveis-m3'},
         dag=dag)
@@ -154,7 +154,7 @@ fuels_trusted_to_refined  = PythonOperator(
 
 diesel_trusted_to_refined  = PythonOperator(
         task_id='diesel_trusted_to_refined', 
-        python_callable=fuels_refined_writing,
+        python_callable=trusted_to_refined,
         op_kwargs={'product': 'diesel',
                    'filename': 'vendas-combustiveis-m3'},
         dag=dag)
