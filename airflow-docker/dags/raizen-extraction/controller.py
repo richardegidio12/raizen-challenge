@@ -33,11 +33,11 @@ def prepare_dataframe(layer:str,filename:str, worksheet:str, product:str=None):
         df.columns = ['combustivel', 'ano', 'regiao','estado', '01','02','03','04','05','06','07','08','09','10','11','12','total']
         months = df.columns[4:-1]
         df = df.melt(id_vars=['combustivel', 'ano', 'regiao','estado'], value_vars=months, var_name='mes', value_name='volume')
-        return df.round({'volume':1})
+        return df
     elif layer == 'trusted':
         df = pd.read_csv(f"/opt/airflow/dags/raizen-extraction/{layer}/{product}-{filename}.csv")
         df['year_month'] = pd.to_datetime(df['year_month'])
-        return df.round({'volume':1})
+        return df
 
 
 def count_validation(layer:str, filename:str, product:str, worksheet:int=None):
@@ -45,11 +45,11 @@ def count_validation(layer:str, filename:str, product:str, worksheet:int=None):
         pv_trusted = prepare_dataframe(layer=layer, filename=filename, worksheet=worksheet, product=product)
         pv_trusted['ano'] = pv_trusted['year_month'].dt.year
         pv_trusted = pv_trusted.groupby('ano').sum('volume')
-        return pv_trusted.to_dict()
+        return pv_trusted.round({'volume':1}).to_dict()
     elif layer =='staging':
         pv_raw = prepare_dataframe(layer=layer, filename=filename, worksheet=worksheet, product=product)
         pv_raw = pd.pivot_table(pv_raw,values = 'volume', index=['ano'], aggfunc="sum").groupby('ano').sum('volume')
-        return pv_raw.to_dict()
+        return pv_raw.round({'volume':1}).to_dict()
 
 
 def is_totals_equal(dict1:dict, dict2:dict):
